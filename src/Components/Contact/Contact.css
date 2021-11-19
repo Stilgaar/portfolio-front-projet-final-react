@@ -1,0 +1,61 @@
+.contact-container {
+    margin: auto;
+    width: 80%;
+}
+
+label {
+    font-weight: bolder;
+    color: #EFEFED;
+}
+
+.contact-inputs-global {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input-nom-email {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-evenly, flex-start;
+    margin-bottom: 0.5%;
+    margin-top: 1%;
+}
+
+@media (max-width: 1050px) {
+    .contact-input-nom-email  {
+        flex-direction: column;
+        width: fit-content;
+    }
+}
+
+.contact-input-nom-email input, .contact-input-titre-message input {
+    height: 2.5rem;
+}
+
+.contact-input-titre-message{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-bottom: 1%;
+    width: 60%;
+}
+
+.contact-input-titre-message label {
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+}
+
+.contact-input-mail, .contact-input-nom {
+        display: flex;
+        flex-direction: column;
+        margin-right: 1%;
+}
+
+.contact-input-nom-email label {
+    margin-bottom: 2%;
+}
+
+.contact-message {
+    font-size: 120%;
+    color: #EFEFED;
+}

@@ -1,0 +1,75 @@
+.acceuil-main-container {
+    margin: auto; 
+    width: 80%;
+    height: max-content;
+    border:0.1px solid white;
+    border-radius: 3px;
+    color: white; 
+    background-image: url(../../pic.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.acceuil-container {
+    display: flex;
+    height: max-content;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto; 
+    width: 95%;
+    vertical-align: middle;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.acceuil-single-box-text, .acceuil-single-box-image {
+    display: flex;
+    flex-direction: column;
+    margin: auto; 
+    justify-content: space-between;
+}
+
+.acceuil-single-box-text {
+    background-color: black;
+    padding: 3%;
+    border:0.5px solid rgb(100, 100, 100); 
+    border-radius: 3px;
+    opacity: 0.9;
+}
+
+.acceuil-single-box-image {
+    margin: auto;
+}
+
+.acceuil-photo {
+    height: 60%;
+    width: 60%;
+    margin: auto; 
+}
+
+.acceuil-dev {
+    font-size: 250%;
+}
+
+.acceuil-element {
+    font-size: 150%;
+}
+
+.acceuil-element a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.acceuil-element a:hover {
+    color: lightblue;
+ }
+
+@media (max-width: 1050px) {
+    .acceuil-container {
+        flex-direction: column;
+    }
+    .acceuil-single-box-image {
+        margin-top: 2rem;
+    }
+}
+

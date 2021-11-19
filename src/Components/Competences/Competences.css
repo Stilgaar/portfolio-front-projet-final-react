@@ -1,0 +1,45 @@
+.globalElem {
+   margin: auto;
+   width: 80%;
+}
+
+.textExt {
+ position: relative;
+}
+
+.devel, .photo, .langue, .restauration, .blogging {
+    background-color:rgb(184, 184, 184,0.2);
+    box-shadow: 3px 3px 3px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    padding: 0.7rem;
+    font-size: 1.1em;
+}
+
+.titreText { 
+    font-weight: bolder;
+    color:#EFEFED;
+}
+
+.competence-elem {
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.competence-barre-elem {
+    height: 5rem;
+    background-color: grey;
+    line-height: 5rem;
+    margin-top: 4rem;
+   margin-bottom: 4rem;
+}
+
+.competence-barre-elem p {
+    margin-left: 2rem;
+    font-size: 120%;
+}
+
+
+
+
+

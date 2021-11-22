@@ -10,11 +10,11 @@ function Contact() {
                     <div className="contact-input-nom-email">
                         <div className="contact-input-nom">
                         <label>Nom et Prènom </label>
-                        <input type="text" placeholder="Jean Dupont" />
+                        <input type="text" placeholder="Guillaume Graciet" />
                         </div>
                         <div className="contact-input-mail">
                         <label>Email </label>
-                        <input type="text" placeholder="jean.d@aquarium.com" />
+                        <input type="text" placeholder="guillaume.g@lebocal.academy"/>
                         </div>
                     </div>
                     <div className="contact-input-titre-message">

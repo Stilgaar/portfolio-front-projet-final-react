@@ -13,6 +13,18 @@
     justify-content: space-between;
     justify-content: flex-start;
     white-space: nowrap;
+    font-weight: bolder;
+    font-size: 200%;
+    text-shadow: 
+    0 0 0 	black,
+    .0025em .0025em 0 	black,
+    .005em .005em 0 black,
+    .0075em .0075em 0 black,
+    .01em .01em 0 black,
+    .0125em .0125em 0 black,
+    .015em .015em 0 black,
+    .0175em .0175em 0 black;
+    ;                                 
 }
 
 .navigation-end {
@@ -41,27 +53,27 @@
     }
 }
 
-.navigation-element, .navigation-element-cachee {
+.navigation-element a, .navigation-element-cachee a {
     display: block;
     white-space: nowrap;
     color: #EFEFED;
-    padding: 3%;
+    border: 2px solid grey;
     width: fit-content;
     height: fit-content;
-    margin-left: 2%;
-    margin-right: 2%;
-    font-size: 110%;
+    font-size: 100%;
     border-radius: 3px;
     height: fit-content;
+    font-weight: bold;
 }
 
 .navigation-element a:hover, .navigation-element-cachee a:hover {
     background-color: rgb(223, 223, 221, 0.8);
-    box-shadow: 2px 2px 2px grey;
+    box-shadow: 0 0 15px 3px grey;
     color: #000000;
     cursor: pointer;
-    padding:2%;
-}
+    border-radius: 3px;
+
+    }
 
 @media (max-width : 1000px) {
     .navigation {

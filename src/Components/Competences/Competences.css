@@ -5,9 +5,11 @@
 
 .textExt {
  position: relative;
+ cursor: pointer;
+
 }
 
-.devel, .photo, .langue, .restauration, .blogging {
+.textElemExt {
     background-color:rgb(184, 184, 184,0.2);
     box-shadow: 3px 3px 3px 4px rgba(0, 0, 0, 0.3);
     border-radius: 3px;
@@ -36,10 +38,56 @@
 
 .competence-barre-elem p {
     margin-left: 2rem;
-    font-size: 120%;
+    font-size: 200%;
+    font-weight: bolder;
+    text-shadow: 
+    0 0 0 	black,
+    .0025em .0025em 0 	black,
+    .005em .005em 0 #FF5700,
+    .0075em .0075em 0 #FF5700,
+    .01em .01em 0 #FF5700,
+    .0125em .0125em 0 #FF5700,
+    .015em .015em 0 #FF5700,
+    .0175em .0175em 0 #FF5700;
+    ;                                 
 }
 
+.image-logo-container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+}
 
+.image-logo-container-img-a {
+    display: flex;
+    flex-direction: row;
+    border:1px solid red; 
+    align-self: center;
+}
 
+.comp-img-a-ici {
+    margin:0;
+    align-self: center;
+    border:1px solid greenyellow; 
+    width: 27%;
+}
 
+.comp-img-a {
+    display: flex;
+    width: 30%;
+    margin: auto;
+    border-radius: 3px;  
+}
 
+.image-logo {
+    height: max-content;
+    width: 5%;
+    align-self: center;
+   }
+
+.image-logoici {
+width: 100%;
+align-self: center;
+border:1px solid pink; 
+}

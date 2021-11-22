@@ -6,7 +6,6 @@
 .textExt {
  position: relative;
  cursor: pointer;
-
 }
 
 .textElemExt {
@@ -59,21 +58,13 @@
     justify-content: space-evenly;
 }
 
-.image-logo-container-img-a {
-    display: flex;
-    flex-direction: row;
-    border:1px solid red; 
-    align-self: center;
-}
-
-.comp-img-a-ici {
-    margin:0;
-    align-self: center;
-    border:1px solid greenyellow; 
-    width: 27%;
+.imageA {
+ width: 20%;
+ align-self: center;
 }
 
 .comp-img-a {
+    height: max-content;
     display: flex;
     width: 30%;
     margin: auto;
@@ -84,10 +75,12 @@
     height: max-content;
     width: 5%;
     align-self: center;
-   }
+}
 
-.image-logoici {
-width: 100%;
-align-self: center;
-border:1px solid pink; 
+.image-logo-ici {
+    height: max-content;
+    display: flex;
+    width: 100%;
+    margin: auto;   
+    
 }

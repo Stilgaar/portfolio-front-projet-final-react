@@ -87,13 +87,13 @@ function Competences() {
                     </div>
 
                     <div className="textExt"> <p onClick={() => setBlog(y => !y)} onMouseOver={() => setBlog(true)} className="textElemExt">
-                        <span className="titreText"> &bull; Blogging </span>
+                        <span className="titreText" id="blog"> &bull; Blogging </span>
                         <br /> - SEO - Gestion des réseaux - Création de contenus - Environnement Wordpress - </p>
                         {blog &&
-                            <div className="image-logo-container-img-a">
-                                <img className="image-logo" src={word} alt="wordpress" />
+                            <div className="image-logo-container">
                                 <img className="image-logo" src={SEO} alt="SEO" />
-                                <a className="image-logoici" href="https://www.icietlabas.fr" target="_blank" rel="noreferrer" ><img className="comp-img-a-ici" src={ici} alt="Ici et là bas blog voyage" /></a>
+                                <img className="image-logo" src={word} alt="wordpress"/>                              
+                                <a className="imageA" href="https://www.icietlabas.fr"><img className="image-logo-ici" src={ici} alt="Ici et là bas blog voyage" /></a>
                             </div>}
                     </div>
 
@@ -102,9 +102,9 @@ function Competences() {
                         <br /> - Management - Service - Gestion des Stocks - Barman - Horraires impossibles -</p>
                         {rest &&
                             <div className="image-logo-container">
-                                <a href="https://www.le-train-bleu.com/fr/" target="_blank" rel="noreferrer nofollow" ><img className="comp-img-a" src={tb} alt="restaurant le train bleu" /></a>
-                                <a href="https://www.astouxbrun.com/" target="_blank" rel="noreferrer nofollow" ><img className="comp-img-a" src={astoux} alt="restaurant Astoux et Brun Cannes" /></a>
-                                <a href="https://www.boomerang.bio/" target="_blank" rel="noreferrer nofollow" ><img className="comp-img-a" src={boom} alt="boutique boomerang zéro déchets" /></a>
+                                <a className="imageA" href="https://www.le-train-bleu.com/fr/" target="_blank" rel="noreferrer nofollow" ><img className="comp-img-a" src={tb} alt="restaurant le train bleu" /></a>
+                                <a  className="imageA" href="https://www.astouxbrun.com/" target="_blank" rel="noreferrer nofollow" ><img className="comp-img-a" src={astoux} alt="restaurant Astoux et Brun Cannes" /></a>
+                                <a className="imageA" href="https://www.boomerang.bio/" target="_blank" rel="noreferrer nofollow" ><img className="comp-img-a" src={boom} alt="boutique boomerang zéro déchets" /></a>
                             </div>}
                     </div>
 

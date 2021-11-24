@@ -50,16 +50,6 @@
     opacity: 0.9;    
 }
 
-.acceuil-photo {
-    background-color: black;
-    height: 50%;
-    width: 50%;
-    margin: auto; 
-    opacity: 1;
-    border:0.5px solid rgb(100, 100, 100); 
-    padding:2%;
-}
-
 .acceuil-dev {
     font-size: 250%;
 }
@@ -95,4 +85,12 @@
     
     }
 }
-
+.acceuil-photo {
+    background-color: black;
+    height: 50%;
+    width: 50%;
+    margin: auto; 
+    opacity: 1 !important;
+    border:0.5px solid rgb(100, 100, 100); 
+    padding:2%;
+}

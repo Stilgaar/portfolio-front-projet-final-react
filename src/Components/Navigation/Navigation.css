@@ -134,7 +134,7 @@
     0% {
         transform: scaleY(0)
     }
-    80% {
+    50% {
         transform: scaleY(1.1)
     }
     100% {

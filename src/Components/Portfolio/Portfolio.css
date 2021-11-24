@@ -1,6 +1,6 @@
 .portfolio-container {
     width: 80%;
-    color: white; 
+    color: #EFEFED; 
     margin: auto; 
     display: flex;
     flex-direction: row;
@@ -60,6 +60,26 @@
 
 }
 
+.snacks {
+    overflow: hidden; 
+    background: #212121;
+    border: 1px solid gray;
+    border-radius: 4px;
+    height: min-content;
+    width: 100%;
+    z-index: 100;
+}
 
+.snacks:hover {
+    height: 600px;
+    width: 600px;
+}
 
-
+.portfolios-subtitles {
+    color: #EFEFED;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 200%;
+}

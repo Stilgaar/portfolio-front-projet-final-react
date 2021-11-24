@@ -4,8 +4,12 @@
 }
 
 .textExt {
- position: relative;
  cursor: pointer;
+}
+
+.textExt p {
+    font-weight: 500;
+    text-align: center;
 }
 
 .textElemExt {
@@ -19,13 +23,18 @@
 .titreText { 
     font-weight: bolder;
     color:#EFEFED;
+    font-weight: bolder;
+    font-size: 130%;
+    border-bottom: 3px solid #FF5700;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-bottom: 0.5%;
 }
 
 .competence-elem {
     width: 100%;
     margin-top: 4rem;
     margin-bottom: 4rem;
-    
 }
 
 .competence-barre-elem {
@@ -33,8 +42,8 @@
     background-color: grey;
     line-height: 5rem;
     margin-top: 4rem;
-   margin-bottom: 4rem;
-   border-bottom: 0.5rem solid #FF5700;
+    margin-bottom: 4rem;
+    border-bottom: 0.5rem solid #FF5700;
 }
 
 .competence-barre-elem p {
@@ -75,3 +84,16 @@
     width: 100%;
     margin: auto;     
 }
+
+@media(max-width:1000px) {
+    .textExt p {
+        text-align: left;
+    }
+    .titreText {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+

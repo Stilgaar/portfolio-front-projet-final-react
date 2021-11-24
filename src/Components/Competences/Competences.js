@@ -28,7 +28,6 @@ import ici from './img/ici.jpg'
 
 import { useState } from 'react';
 
-
 function Competences() {
 
     const [dev, setDev] = useState(false);
@@ -92,7 +91,7 @@ function Competences() {
                         {blog &&
                             <div className="image-logo-container">
                                 <img className="image-logo" src={SEO} alt="SEO" />
-                                <img className="image-logo" src={word} alt="wordpress"/>                              
+                                <img className="image-logo" src={word} alt="wordpress" />
                                 <a className="imageA" href="https://www.icietlabas.fr"><img className="image-logo-ici" src={ici} alt="Ici et là bas blog voyage" /></a>
                             </div>}
                     </div>
@@ -103,7 +102,7 @@ function Competences() {
                         {rest &&
                             <div className="image-logo-container">
                                 <a className="imageA" href="https://www.le-train-bleu.com/fr/" target="_blank" rel="noreferrer nofollow" ><img className="comp-img-a" src={tb} alt="restaurant le train bleu" /></a>
-                                <a  className="imageA" href="https://www.astouxbrun.com/" target="_blank" rel="noreferrer nofollow" ><img className="comp-img-a" src={astoux} alt="restaurant Astoux et Brun Cannes" /></a>
+                                <a className="imageA" href="https://www.astouxbrun.com/" target="_blank" rel="noreferrer nofollow" ><img className="comp-img-a" src={astoux} alt="restaurant Astoux et Brun Cannes" /></a>
                                 <a className="imageA" href="https://www.boomerang.bio/" target="_blank" rel="noreferrer nofollow" ><img className="comp-img-a" src={boom} alt="boutique boomerang zéro déchets" /></a>
                             </div>}
                     </div>

@@ -13,7 +13,7 @@ function NavBar() {
                 <div className="navigation-start">Jean-François van Straelen Portfolio</div>
                 <div className="navigation-end">
                     <div className="navigation-element"><a href="#acceuil">Acceuil</a></div>
-                    <div className="navigation-element"><a href="#comp">Compétences</a></div>
+                    <div className="navigation-element"><a href="#comp">Competences</a></div>
                     <div className="navigation-element"><a href="#port">Portfolio</a></div>
                     <div className="navigation-element"><a href="#contact">Contact</a></div>
                 </div>

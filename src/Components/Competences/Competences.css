@@ -25,6 +25,7 @@
     width: 100%;
     margin-top: 4rem;
     margin-bottom: 4rem;
+    
 }
 
 .competence-barre-elem {
@@ -33,22 +34,13 @@
     line-height: 5rem;
     margin-top: 4rem;
    margin-bottom: 4rem;
+   border-bottom: 0.5rem solid #FF5700;
 }
 
 .competence-barre-elem p {
     margin-left: 2rem;
     font-size: 200%;
     font-weight: bolder;
-    text-shadow: 
-    0 0 0 	black,
-    .0025em .0025em 0 	black,
-    .005em .005em 0 #FF5700,
-    .0075em .0075em 0 #FF5700,
-    .01em .01em 0 #FF5700,
-    .0125em .0125em 0 #FF5700,
-    .015em .015em 0 #FF5700,
-    .0175em .0175em 0 #FF5700;
-    ;                                 
 }
 
 .image-logo-container {
@@ -81,6 +73,5 @@
     height: max-content;
     display: flex;
     width: 100%;
-    margin: auto;   
-    
+    margin: auto;     
 }

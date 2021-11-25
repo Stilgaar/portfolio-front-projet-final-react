@@ -3,7 +3,7 @@ import profile from './profile.png'
 
 function Acceuil() {
     return (
-        <div className="acceuil-main-container" id="acceuil"> 
+        <div className="acceuil-main-container" > 
          
             <div className="acceuil-container">
           

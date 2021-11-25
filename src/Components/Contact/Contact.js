@@ -29,41 +29,39 @@ function Contact() {
 
             <div className="contact-container-container">
                 <div className="contact-container">
-              
-                       <div className="contact-message">Laissez moi un message, je vous répondrai le plus rapidement possible.</div>
-                        <form onSubmit={(e) => handleSubmit(e)}>
-                            <div className="contact-input-nom-email">
-                                <div className="contact-input-nom">
-                                    <label>Nom et Prénom </label>
-                                    <input type="text" placeholder="Guillaume Graciet" onChange={(e) => handleInput(e, setNoms)} />
-                                </div>
-                                <div className="contact-input-mail">
-                                    <label>Email </label>
-                                    <input type="text" placeholder="guillaume.g@lebocal.academy" onChange={(e) => handleInput(e, setEmail)} />
-                                </div>
-                            </div>
-                            <div className="contact-input-titre-message">
-                                <label>Titre ? (optionel) </label>
-                                <input type="text" placeholder="Titre de votre message" onChange={(e) => handleInput(e, setTitle)} />
 
-                                <label>Message </label>
-                                <textarea  placeholder="Message" onChange={(e) => handleInput(e, setMessage)}></textarea>
+                    <div className="contact-message">Laissez moi un message, je vous répondrai le plus rapidement possible.</div>
+                    <form onSubmit={(e) => handleSubmit(e)}>
+                        <div className="contact-input-nom-email">
+                            <div className="contact-input-nom">
+                                <label>Nom et Prénom </label>
+                                <input type="text" placeholder="Guillaume Graciet" onChange={(e) => handleInput(e, setNoms)} />
                             </div>
-                            <button className="btn-envoyer" type="submit">Envoyer</button>
-                        </form>
-              
+                            <div className="contact-input-mail">
+                                <label>Email </label>
+                                <input type="text" placeholder="guillaume.g@lebocal.academy" onChange={(e) => handleInput(e, setEmail)} />
+                            </div>
+                        </div>
+                        <div className="contact-input-titre-message">
+                            <label>Titre ? (optionel) </label>
+                            <input type="text" placeholder="Titre de votre message" onChange={(e) => handleInput(e, setTitle)} />
+
+                            <label>Message </label>
+                            <textarea placeholder="Message" onChange={(e) => handleInput(e, setMessage)}></textarea>
+                        </div>
+                        <button className="btn-envoyer" type="submit">Envoyer</button>
+                    </form>
+
                 </div>
 
                 <div className="contact-container-contact">
-    
                     <div className="contact-message-contact">Contact</div>
                     <div>Jean-François van Straelen</div>
                     <div>8 Allée des Jasmins, 06130 Grasse</div>
                     <div>06 63 87 77 90</div>
                     <div><a href="mailto:jeffvanstraelen@gmail.com">jeffvanstraelen@gmail.com</a></div>
                     <button className="btn"> <a href={cv} download={cv}>Téléchargez mon CV</a> </button>
-                    </div>
-       
+                </div>
             </div>
         </div>
     )

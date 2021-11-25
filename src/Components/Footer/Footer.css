@@ -1,5 +1,5 @@
 .pieddepage {
-    height: 17rem;
+    height: 3rem;
     line-height: 3rem;
     width: 100%;
     background-color: grey;
@@ -9,5 +9,5 @@
 
 .pieddepage p {
 margin-left: 3%;
-line-height: 17rem;
+line-height: 3rem;
 }

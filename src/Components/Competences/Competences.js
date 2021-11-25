@@ -41,7 +41,7 @@ function Competences() {
             <div className="globalElem">
                 <div className="textBox">
 
-                    <div className="textExt"> <p onClick={() => setDev(y => !y)} onMouseOver={() => setDev(true)} className="textElemExt">
+                    <div className="textExt"> <p onClick={() => setDev(y => !y)} onMouseOver={() => { setOutils(false); setDev(true); setPhoto(false); setBlog(false); setRest(false) }} className="textElemExt">
                         <div className="titreText"> &bull; Développement </div>
                         <br /> - HTML - CSS - JavaScript - React - Node.Js / Express - MongoDb - React Native - </p>
                         {dev &&
@@ -55,7 +55,7 @@ function Competences() {
                             </div>}
                     </div>
 
-                    <div className="textExt"> <p onClick={() => setOutils(y => !y)} onMouseOver={() => setOutils(true)} className="textElemExt">
+                    <div className="textExt"> <p onClick={() => setOutils(y => !y)} onMouseOver={() => { setOutils(true); setDev(false); setPhoto(false); setBlog(false); setRest(false) } } className="textElemExt">
                         <div className="titreText"> &bull; Outils </div>
                         <br /> - Git - Visual Studio - Postman - Androïd Studio - SCRUM - Office - Compass - 3T - LightRoom -</p>
                         {outil &&
@@ -72,7 +72,7 @@ function Competences() {
                             </div>}
                     </div>
 
-                    <div className="textExt"> <p onClick={() => setPhoto(y => !y)} onMouseOver={() => setPhoto(true)} className="textElemExt">
+                    <div className="textExt"> <p onClick={() => setPhoto(y => !y)} onMouseOver={() => { setOutils(false); setDev(false); setPhoto(true); setBlog(false); setRest(false) }} className="textElemExt">
                         <div className="titreText"> &bull; Photographie </div>
                         <br /> - Interieurs - Packshots - Evenemetiel - Mini Studio - Packshot exterieures - </p>
                         {photo &&
@@ -85,7 +85,7 @@ function Competences() {
                             </div>}
                     </div>
 
-                    <div className="textExt"> <p onClick={() => setBlog(y => !y)} onMouseOver={() => setBlog(true)} className="textElemExt">
+                    <div className="textExt"> <p onClick={() => setBlog(y => !y)} onMouseOver={() => { setOutils(false); setDev(false); setPhoto(false); setBlog(true); setRest(false) }} className="textElemExt">
                         <div className="titreText" id="blog"> &bull; Blogging </div>
                         <br /> - SEO - Gestion des réseaux - Création de contenus - Environnement Wordpress - </p>
                         {blog &&
@@ -96,7 +96,7 @@ function Competences() {
                             </div>}
                     </div>
 
-                    <div className="textExt"> <p onClick={() => setRest(y => !y)} onMouseOver={() => setRest(true)} className="textElemExt">
+                    <div className="textExt"> <p onClick={() => setRest(y => !y)} onMouseOver={() => { setOutils(false); setDev(false); setPhoto(false); setBlog(false); setRest(true) }} className="textElemExt">
                         <div className="titreText"> &bull; Restauration & Services </div>
                         <br /> - Management - Service - Gestion des Stocks - Barman - Horraires impossibles -</p>
                         {rest &&

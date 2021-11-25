@@ -9,7 +9,7 @@ function NavBar() {
     return (
 
         <nav>
-            <div className="navigation">
+            <div className="navigation" id="acceuil">
                 <div className="navigation-start">Jean-François van Straelen Portfolio</div>
                 <div className="navigation-end">
                     <div className="navigation-element"><a href="#acceuil">Acceuil</a></div>

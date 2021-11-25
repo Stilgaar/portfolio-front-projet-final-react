@@ -47,7 +47,7 @@ function Contact() {
                                 <input type="text" placeholder="Titre de votre message" onChange={(e) => handleInput(e, setTitle)} />
 
                                 <label>Message </label>
-                                <textarea cols="70" rows="7" placeholder="Message" onChange={(e) => handleInput(e, setMessage)}></textarea>
+                                <textarea  placeholder="Message" onChange={(e) => handleInput(e, setMessage)}></textarea>
                             </div>
                             <button className="btn-envoyer" type="submit">Envoyer</button>
                         </form>

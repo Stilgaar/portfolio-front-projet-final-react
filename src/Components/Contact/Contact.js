@@ -55,13 +55,15 @@ function Contact() {
                 </div>
 
                 <div className="contact-container-contact">
+    
                     <div className="contact-message-contact">Contact</div>
                     <div>Jean-François van Straelen</div>
                     <div>8 Allée des Jasmins, 06130 Grasse</div>
                     <div>06 63 87 77 90</div>
                     <div><a href="mailto:jeffvanstraelen@gmail.com">jeffvanstraelen@gmail.com</a></div>
                     <button className="btn"> <a href={cv} download={cv}>Téléchargez mon CV</a> </button>
-                </div>
+                    </div>
+       
             </div>
         </div>
     )

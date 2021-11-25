@@ -14,7 +14,6 @@
 
 .textElemExt {
     background-color:rgb(184, 184, 184,0.2);
-    box-shadow: 3px 3px 3px 4px rgba(0, 0, 0, 0.3);
     border-radius: 3px;
     padding: 0.7rem;
     font-size: 1.1em;
@@ -52,7 +51,7 @@
     font-weight: bolder;
 }
 
-.image-logo-container {
+.image-logo-container, .image-photo-container {
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -85,7 +84,7 @@
     margin: auto;     
 }
 
-@media(max-width:1000px) {
+@media(max-width:1220px) {
     .textExt p {
         text-align: left;
     }
@@ -93,7 +92,33 @@
         margin-left: 0;
         margin-right: 0;
     }
+    .comp-img-a {
+        width: 50%;
+    }
+    .image-logo {
+        width: 10%;
+    }
+    .image-logo-ici {
+        width: 130%;
+    }
+
 }
+
+@media(max-width:600px) {
+    .comp-img-a {
+        width: 80%;
+    }
+    .image-logo {
+        width: 20%;
+    }
+    .image-logo-container {
+        flex-wrap: wrap;
+    }
+    .image-logo-ici {
+        width: 150%;
+    }
+}
+
 
 
 

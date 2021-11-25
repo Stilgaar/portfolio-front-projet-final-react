@@ -5,7 +5,7 @@
     border:0.1px solid white;
     border-radius: 3px;
     color: white; 
-    background-image: url(../../pic.jpg);
+    background-image: url(../../pic.jpg); 
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -67,6 +67,22 @@
     color: lightblue;
  }
 
+ .acceuil-photo {
+    background-color: black;
+    height: 50%;
+    width: 50%;
+    margin: auto; 
+    opacity: 1 !important;
+    border:0.5px solid rgb(100, 100, 100); 
+    padding:2%;
+}
+
+
+.acceuil-textdefilant {
+    font-size: 1rem;
+    position: absolute;
+}
+
 @media (max-width: 1050px) {
     .acceuil-container {
         flex-direction: column;
@@ -75,6 +91,7 @@
     .acceuil-single-box-image {
         margin-top: 1rem;
         margin-left: 0;
+        margin: auto;
         justify-content: space-around;
     }
     .acceuil-single-box-text {
@@ -84,13 +101,4 @@
         width: 93%;
     
     }
-}
-.acceuil-photo {
-    background-color: black;
-    height: 50%;
-    width: 50%;
-    margin: auto; 
-    opacity: 1 !important;
-    border:0.5px solid rgb(100, 100, 100); 
-    padding:2%;
 }

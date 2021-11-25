@@ -76,7 +76,7 @@ function Competences() {
                         <div className="titreText"> &bull; Photographie </div>
                         <br /> - Interieurs - Packshots - Evenemetiel - Mini Studio - Packshot exterieures - </p>
                         {photo &&
-                            <div className="image-logo-container">
+                            <div className="image-photo-container">
                                 <a href="https://www.jeffphoto.fr/packshot-epicerie-en-vrac-photographe-region-cannoise-paca-photo/" target="_blank" rel="noreferrer" ><img className="comp-img-a" src={pack} alt="packshots produits" /></a>
                                 <a href="https://www.jeffphoto.fr/evenementiel/" target="_blank" rel="noreferrer" ><img className="comp-img-a" src={enen} alt="evenementiel" /></a>
                                 <a href="https://www.jeffphoto.fr/photographie-culinaire-photographe-food-photographe-cannes-grasse-antibes-mougins-mouanssartoutx-paca/" target="_blank" rel="noreferrer" ><img className="comp-img-a" src={studio} alt="photos studios" /></a>

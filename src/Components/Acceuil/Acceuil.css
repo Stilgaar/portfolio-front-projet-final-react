@@ -19,8 +19,8 @@
     margin: auto; 
     width: 95%;
     vertical-align: middle;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 12%;
+    margin-bottom: 12%;
 }
 
 .acceuil-single-box-text {
@@ -39,6 +39,7 @@
     flex-direction: column;
     margin-right: 5%;
     padding: 3%;
+    width: 40%;
 }
 
 .acceuil-single-box-image {
@@ -49,14 +50,24 @@
     width: fit-content;
     padding: 1%;
     opacity: 0.9;    
+    display: flex;
+    flex-direction:column;
 }
 
 .acceuil-dev {
-    font-size: 250%;
+    font-size: 220%;
+    word-break: break-all;
 }
 
 .acceuil-element {
     font-size: 150%;
+    word-break: break-all;
+
+}
+
+.acceuil-element-text{
+    font-size: 100%;
+
 }
 
 .acceuil-element a {
@@ -78,11 +89,36 @@
     padding:2%;
 }
 
+.acceuil-icones {
+    width: max-content;
+    margin: auto;
+    display: flex;
+    margin-top: 1%;
+}
+
+.acceuil-icones img {
+    width: 2rem;
+    opacity: 1 !important; 
+    background-color: #38B6FF;  
+    border-radius: 5px; 
+    padding: 3px; 
+    margin-left: 3px;
+    margin-right: 3px;
+}
 
 .acceuil-textdefilant {
     font-size: 1rem;
     position: absolute;
 }
+
+.portfolio-titre {
+    border-bottom: 4px solid #38B6FF; 
+    line-height: 3rem;
+   }
+
+.acceuil-element a {
+    word-break: break-all;
+   }
 
 @media (max-width: 1050px) {
     .acceuil-container {

@@ -98,7 +98,7 @@ form {
 
 .btn {
     margin-top: 2%;
-    background-color: #FF5700;
+    background-color: #38B6FF;
     padding: 2%;
     border-radius: 5px;
     font-weight: bolder; 
@@ -106,7 +106,7 @@ form {
 }
 
 .btn-envoyer {
-    background-color: #FF5700;
+    background-color: #38B6FF;
     padding: 1%;
     border:2px solid grey;
     border-radius: 5px;
@@ -160,6 +160,16 @@ form {
 
 }
 
+input, textarea {
+    border: none;
+    background-color:#222222;
+}
 
+input:focus, textarea:focus {
+    outline:none;
+    border:none;
+    background-color:#2222225b;
+    color: #38B6FF;
+}
 
 

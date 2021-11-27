@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Navigation.css';
 import menuup from './menu-up.svg';
-import cv from '../Contact/CV-Jean-Francois-van-Straelen.pdf'
+import cv from '../Contact/CV-JeffvanStraelen.pdf'
 
 function NavBar() {
 

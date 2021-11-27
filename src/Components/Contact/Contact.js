@@ -7,7 +7,7 @@ const axios = require('axios')
 function Contact() {
 
     const [sumbit, setSumbit] = useState({noms:"", email:"" , title: "", message:""})
-    let url = "http://localhost:5000/message"
+    let url = "http://localhost:5000/message" || "https://jeffvanstraelenback.osc-fr1.scalingo.io/message"
     const handleSubmit = (e) => {
         e.preventDefault();  
         e.target.reset();

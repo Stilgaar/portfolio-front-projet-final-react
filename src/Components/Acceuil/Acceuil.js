@@ -17,7 +17,7 @@ function Acceuil() {
                     <div className="acceuil-element"><a href="mailto:jeffvanstraelen@gmail.com">jeffvanstraelen@gmail.com</a></div>
                     <div className="acceuil-element-text">
                         <br/>    
-                    Trois ans à mon compte en tant que Photographe ainsi qu'une dizaine d'années
+                    Après trois ans à mon compte en tant que Photographe ainsi qu'une dizaine d'années
                      en management dans la restauration, j'ai voulu me lancer dans une nouvelle Aventure.
                      Je me suis naturellement orienté vers un secteur me tendant les bras : le développement web.
                      Pour cette raison, j'ai suivi une formation bootcamp en distanciel au Bocal Academy de Nice</div>

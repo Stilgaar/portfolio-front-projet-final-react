@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './Contact.css'
-import cv from './CV-Jean-Francois-van-Straelen.pdf'
+import cv from './CV-JeffvanStraelen.pdf'
 const axios = require('axios')
 
 

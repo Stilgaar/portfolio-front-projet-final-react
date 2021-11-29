@@ -1,13 +1,31 @@
 .pieddepage {
-    height: 3rem;
     line-height: 3rem;
     width: 100%;
     background-color: grey;
     font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
 }
 
-.pieddepage p {
-margin-left: 3%;
-line-height: 3rem;
+.pieddepage-start {
+    margin-left: 3%;
+    line-height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+.pieddepage img {
+    width: 25px;
+}
+
+.pieddepage-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin-right: 3%;
+    line-height: 4rem;
 }

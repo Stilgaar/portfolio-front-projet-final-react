@@ -24,11 +24,11 @@ function Contact() {
                         <div className="contact-input-nom-email">
                             <div className="contact-input-nom">
                                 <label>Nom et Prénom </label>
-                                <input type="text" placeholder="Guillaume Graciet" onChange={(e) => setSumbit({...sumbit, noms:e.target.value})} />
+                                <input type="text" placeholder="Guillaume Graciet" required onChange={(e) => setSumbit({...sumbit, noms:e.target.value})} />
                             </div>
                             <div className="contact-input-mail">
                                 <label>Email </label>
-                                <input type="text" placeholder="guillaume.g@lebocal.academy" onChange={(e) => setSumbit({...sumbit, email:e.target.value})} />
+                                <input type="text" placeholder="guillaume.g@lebocal.academy" required onChange={(e) => setSumbit({...sumbit, email:e.target.value})} />
                             </div>
                         </div>
                         <div className="contact-input-titre-message">
@@ -36,7 +36,7 @@ function Contact() {
                             <input type="text" placeholder="Titre de votre message" onChange={(e) => setSumbit({...sumbit, title:e.target.value})} />
 
                             <label>Message </label>
-                            <textarea placeholder="Message" onChange={(e) => setSumbit({...sumbit, message:e.target.value})}></textarea>
+                            <textarea placeholder="Message" required onChange={(e) => setSumbit({...sumbit, message:e.target.value})}></textarea>
                         </div>
                         <button className="btn-envoyer" type="submit">Envoyer</button>
                     </form>

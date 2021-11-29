@@ -20,7 +20,7 @@ function Portfolio() {
                     <div className="portfolio-element-uno">
                         <h3>  <span className="portfolio-titre"> UpdownStreet </span><br />
                             Techno: Appli web MERN</h3>
-                        <a href="port" target="_blank" rel="noreferrer nofollow" >
+                        <a href="https://uppertown.osc-fr1.scalingo.io/" target="_blank" rel="noreferrer nofollow" >
                             <img src={up} alt="" />
                         </a>
                         <p>Proof of concept -  FullStack MERN <br />

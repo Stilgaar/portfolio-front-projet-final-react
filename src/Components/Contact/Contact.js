@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './Contact.css'
 import cv from './CV-JeffvanStraelen.pdf'
+import imprim from './cv-jean-francoisvanstraelen-imprimer.pdf'
 const axios = require('axios')
 
 
@@ -48,6 +49,7 @@ function Contact() {
                     <div>06 63 87 77 90</div>
                     <div><a href="mailto:jeffvanstraelen@gmail.com">jeffvanstraelen@gmail.com</a></div>
                     <button className="btn"> <a href={cv} download>Téléchargez mon CV</a> </button>
+                    <p><a href={imprim} target="_blank" rel="noreferrer">Version Imprimable</a></p>
                 </div>
             </div>
         </div>

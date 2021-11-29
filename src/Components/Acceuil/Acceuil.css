@@ -56,7 +56,7 @@
 
 .acceuil-dev {
     font-size: 220%;
-    word-break: break-all;
+    word-break:normal;
 }
 
 .acceuil-element {

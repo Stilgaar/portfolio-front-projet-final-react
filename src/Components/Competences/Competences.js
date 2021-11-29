@@ -35,13 +35,18 @@ function Competences() {
     const [photo, setPhoto] = useState(false);
     const [rest, setRest] = useState(false);
     const [blog, setBlog] = useState(false)
+    console.log("DEV", dev)
+    console.log("OUTILS", outil)
+    console.log("PHOTO", photo)
+    console.log("rest", rest)
+    console.log("blog", blog)
 
     return (
         <div className="competence-elem" id="comp"> <div className="competence-barre-elem"> <p> Compétences </p></div>
             <div className="globalElem">
                 <div className="textBox">
 
-                    <div className="textExt"> <p onClick={() => setDev(y => !y)} onMouseOver={() => { setOutils(false); setDev(true); setPhoto(false); setBlog(false); setRest(false) }} className="textElemExt">
+                    <div className="textExt"> <p onClick={() => setDev(y => !y)} onMouseOver={() => {setOutils(false); setDev(y => !y); setPhoto(false); setBlog(false); setRest(false)}} className="textElemExt">
                         <div className="titreText"> &bull; Développement </div>
                         <br /> - HTML - CSS - JavaScript - React - Node.Js / Express - MongoDb - React Native - </p>
                         {dev &&
@@ -55,7 +60,7 @@ function Competences() {
                             </div>}
                     </div>
 
-                    <div className="textExt"> <p onClick={() => setOutils(y => !y)} onMouseOver={() => { setOutils(true); setDev(false); setPhoto(false); setBlog(false); setRest(false) } } className="textElemExt">
+                    <div className="textExt"> <p onClick={() => setOutils(y => !y)} onMouseOver={() => {setOutils(true); setDev(false); setPhoto(false); setBlog(false); setRest(false) } } className="textElemExt">
                         <div className="titreText"> &bull; Outils </div>
                         <br /> - Git - Visual Studio - Postman - Androïd Studio - SCRUM - Office - Compass - 3T - LightRoom -</p>
                         {outil &&
@@ -72,7 +77,7 @@ function Competences() {
                             </div>}
                     </div>
 
-                    <div className="textExt"> <p onClick={() => setPhoto(y => !y)} onMouseOver={() => { setOutils(false); setDev(false); setPhoto(true); setBlog(false); setRest(false) }} className="textElemExt">
+                    <div className="textExt"> <p onClick={() => setPhoto(y => !y)} onMouseOver={() => {setOutils(false); setDev(false); setPhoto(true); setBlog(false); setRest(false) }} className="textElemExt">
                         <div className="titreText"> &bull; Photographie </div>
                         <br /> - Interieurs - Packshots - Evenemetiel - Mini Studio - Packshot exterieures - </p>
                         {photo &&

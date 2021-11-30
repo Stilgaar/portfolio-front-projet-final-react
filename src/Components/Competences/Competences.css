@@ -7,9 +7,10 @@
  cursor: pointer;
 }
 
-.textExt p {
+.textExt div {
     font-weight: 500;
     text-align: center;
+    margin-bottom: 0.5%;
 }
 
 .textElemExt {
@@ -34,6 +35,10 @@
     width: 100%;
     margin-top: 4rem;
     margin-bottom: 4rem;
+}
+
+.comp-text {
+    color: #EFEFED;
 }
 
 .competence-barre-elem {
@@ -84,8 +89,13 @@
     margin: auto;     
 }
 
+.contact-message-send {
+    font-weight: bold;
+    color: #38B6FF;
+}
+
 @media(max-width:1220px) {
-    .textExt p {
+    .textExt div {
         text-align: left;
     }
     .titreText {

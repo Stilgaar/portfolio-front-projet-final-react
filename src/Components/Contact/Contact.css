@@ -113,10 +113,14 @@ form {
     font-weight: bolder;
     }
 
-.contact-container-contact a {
-    text-decoration: none;
+.contact-container-contact {
     color: #EFEFED;
    
+}
+
+.contact-container-contact a {
+    text-decoration: none;
+    color: #c5c5c5;
 }
 
 .contact-container-contact a:hover {
@@ -131,6 +135,19 @@ form {
 .btn a:hover, .btn-envoyer:hover {
     color: #EFEFED;
 }
+
+input, textarea {
+    border: none;
+    background-color:#222222;
+}
+
+input:focus, textarea:focus {
+    outline:none;
+    border:none;
+    background-color:#2222225b;
+    color: #38B6FF;
+}
+
 
 
 @media (max-width: 1050px) {
@@ -160,16 +177,14 @@ form {
 
 }
 
-input, textarea {
-    border: none;
-    background-color:#222222;
-}
 
-input:focus, textarea:focus {
-    outline:none;
-    border:none;
-    background-color:#2222225b;
-    color: #38B6FF;
-}
+
+
+
+
+
+
+
+
 
 

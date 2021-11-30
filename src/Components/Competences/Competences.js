@@ -35,20 +35,16 @@ function Competences() {
     const [photo, setPhoto] = useState(false);
     const [rest, setRest] = useState(false);
     const [blog, setBlog] = useState(false)
-    console.log("DEV", dev)
-    console.log("OUTILS", outil)
-    console.log("PHOTO", photo)
-    console.log("rest", rest)
-    console.log("blog", blog)
+    
 
     return (
         <div className="competence-elem" id="comp"> <div className="competence-barre-elem"> <p> Compétences </p></div>
             <div className="globalElem">
                 <div className="textBox">
 
-                    <div className="textExt"> <p onClick={() => setDev(y => !y)} onMouseOver={() => {setOutils(false); setDev(y => !y); setPhoto(false); setBlog(false); setRest(false)}} className="textElemExt">
+                    <div className="textExt"> <div onClick={(e) => {e.preventDefault(); setDev(y => !y)}} onMouseOver={() => {setOutils(false); setDev(true); setPhoto(false); setBlog(false); setRest(false)}} className="textElemExt">
                         <div className="titreText"> &bull; Développement </div>
-                        <br /> - HTML - CSS - JavaScript - React - Node.Js / Express - MongoDb - React Native - </p>
+                        <br /> <span className="comp-text"> - HTML - CSS - JavaScript - React - Node.Js / Express - MongoDb - React Native - </span></div>
                         {dev &&
                             <div className="image-logo-container">
                                 <img className="image-logo" src={html} alt="HTML" />
@@ -60,9 +56,9 @@ function Competences() {
                             </div>}
                     </div>
 
-                    <div className="textExt"> <p onClick={() => setOutils(y => !y)} onMouseOver={() => {setOutils(true); setDev(false); setPhoto(false); setBlog(false); setRest(false) } } className="textElemExt">
+                    <div className="textExt"> <div onClick={(e) => { e.preventDefault(); setOutils(y => !y)} } onMouseOver={() => {setOutils(true); setDev(false); setPhoto(false); setBlog(false); setRest(false) } } className="textElemExt">
                         <div className="titreText"> &bull; Outils </div>
-                        <br /> - Git - Visual Studio - Postman - Androïd Studio - SCRUM - Office - Compass - 3T - LightRoom -</p>
+                        <br /> <span className="comp-text"> - Git - Visual Studio - Postman - Androïd Studio - SCRUM - Office - Compass - 3T - LightRoom - </span></div>
                         {outil &&
                             <div className="image-logo-container">
                                 <img className="image-logo" src={git} alt="git" />
@@ -77,9 +73,9 @@ function Competences() {
                             </div>}
                     </div>
 
-                    <div className="textExt"> <p onClick={() => setPhoto(y => !y)} onMouseOver={() => {setOutils(false); setDev(false); setPhoto(true); setBlog(false); setRest(false) }} className="textElemExt">
+                    <div className="textExt"> <div onMouseOver={() => {setOutils(false); setDev(false); setPhoto(y => !y); setBlog(false); setRest(false) }} onClick={() => setPhoto(y => !y)}  className="textElemExt">
                         <div className="titreText"> &bull; Photographie </div>
-                        <br /> - Interieurs - Packshots - Evenemetiel - Mini Studio - Packshot exterieures - </p>
+                        <br /> <span className="comp-text">- Interieurs - Packshots - Evenemetiel - Mini Studio - Packshot exterieures - </span> </div>
                         {photo &&
                             <div className="image-photo-container">
                                 <a href="https://www.jeffphoto.fr/packshot-epicerie-en-vrac-photographe-region-cannoise-paca-photo/" target="_blank" rel="noreferrer" ><img className="comp-img-a" src={pack} alt="packshots produits" /></a>
@@ -90,9 +86,9 @@ function Competences() {
                             </div>}
                     </div>
 
-                    <div className="textExt"> <p onClick={() => setBlog(y => !y)} onMouseOver={() => { setOutils(false); setDev(false); setPhoto(false); setBlog(true); setRest(false) }} className="textElemExt">
+                    <div className="textExt"> <div onClick={() => setBlog(y => !y)} onMouseOver={() => { setOutils(false); setDev(false); setPhoto(false); setBlog(true); setRest(false) }} className="textElemExt">
                         <div className="titreText" id="blog"> &bull; Blogging </div>
-                        <br /> - SEO - Gestion des réseaux - Création de contenus - Environnement Wordpress - </p>
+                        <br /> <span className="comp-text">- SEO - Gestion des réseaux - Création de contenus - Environnement Wordpress -</span> </div>
                         {blog &&
                             <div className="image-logo-container">
                                 <img className="image-logo" src={SEO} alt="SEO" />
@@ -101,9 +97,9 @@ function Competences() {
                             </div>}
                     </div>
 
-                    <div className="textExt"> <p onClick={() => setRest(y => !y)} onMouseOver={() => { setOutils(false); setDev(false); setPhoto(false); setBlog(false); setRest(true) }} className="textElemExt">
+                    <div className="textExt"> <div onClick={() => setRest(y => !y)} onMouseOver={() => { setOutils(false); setDev(false); setPhoto(false); setBlog(false); setRest(true) }} className="textElemExt">
                         <div className="titreText"> &bull; Restauration & Services </div>
-                        <br /> - Management - Service - Gestion des Stocks - Barman - Horraires impossibles -</p>
+                        <br /> <span className="comp-text">- Management - Service - Gestion des Stocks - Barman - </span></div>
                         {rest &&
                             <div className="image-logo-container">
                                 <a className="imageA" href="https://www.le-train-bleu.com/fr/" target="_blank" rel="noreferrer nofollow" ><img className="comp-img-a" src={tb} alt="restaurant le train bleu" /></a>
@@ -112,9 +108,9 @@ function Competences() {
                             </div>}
                     </div>
 
-                    <div className="textExt"> <p className="textElemExt">
+                    <div className="textExt"> <div className="textElemExt">
                         <div className="titreText"> &bull; Langues</div>
-                        <br /> - Français - Anglais - Flamant - Sarcasme - </p>
+                        <br /> <span className="comp-text">- Français - Anglais - Flamand -</span> </div>
                     </div>
 
                 </div>

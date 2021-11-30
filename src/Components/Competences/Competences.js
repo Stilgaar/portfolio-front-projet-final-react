@@ -75,7 +75,7 @@ function Competences() {
 
                     <div className="textExt"> <div onMouseOver={() => {setOutils(false); setDev(false); setPhoto(y => !y); setBlog(false); setRest(false) }} onClick={() => setPhoto(y => !y)}  className="textElemExt">
                         <div className="titreText"> &bull; Photographie </div>
-                        <br /> <span className="comp-text">- Interieurs - Packshots - Evenemetiel - Mini Studio - Packshot exterieures - </span> </div>
+                        <br /> <span className="comp-text">- Interieurs - Packshots - &#x000C9;vénementiel - Mini Studio - Packshot exterieures - </span> </div>
                         {photo &&
                             <div className="image-photo-container">
                                 <a href="https://www.jeffphoto.fr/packshot-epicerie-en-vrac-photographe-region-cannoise-paca-photo/" target="_blank" rel="noreferrer" ><img className="comp-img-a" src={pack} alt="packshots produits" /></a>

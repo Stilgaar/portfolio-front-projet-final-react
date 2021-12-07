@@ -25,6 +25,8 @@ import boom from './img/boom.png';
 import word from './img/word.png'
 import SEO from './img/SEO.png'
 import ici from './img/ici.jpg'
+import gat from './img/gatsb.png'
+import gra from './img/gra.png'
 
 import { useState } from 'react';
 
@@ -44,7 +46,7 @@ function Competences() {
 
                     <div className="textExt"> <div onClick={(e) => {e.preventDefault(); setDev(y => !y)}} onMouseOver={() => {setOutils(false); setDev(true); setPhoto(false); setBlog(false); setRest(false)}} className="textElemExt">
                         <div className="titreText"> &bull; Développement </div>
-                        <br /> <span className="comp-text"> - HTML - CSS - JavaScript - React - Node.Js / Express - MongoDb - React Native - </span></div>
+                        <br /> <span className="comp-text"> - HTML - CSS - JavaScript - React - Node.Js / Express / Appolo - MongoDb - React Native - GraphQL - Gatsby.Js - </span></div>
                         {dev &&
                             <div className="image-logo-container">
                                 <img className="image-logo" src={html} alt="HTML" />
@@ -53,12 +55,14 @@ function Competences() {
                                 <img className="image-logo" src={react} alt="React" />
                                 <img className="image-logo" src={node} alt="node" />
                                 <img className="image-logo" src={mongo} alt="mongo" />
+                                <img className="image-logo" src={gat} alt="mongo" />
+                                <img className="image-logo" src={gra} alt="mongo" />
                             </div>}
                     </div>
 
                     <div className="textExt"> <div onClick={(e) => { e.preventDefault(); setOutils(y => !y)} } onMouseOver={() => {setOutils(true); setDev(false); setPhoto(false); setBlog(false); setRest(false) } } className="textElemExt">
                         <div className="titreText"> &bull; Outils </div>
-                        <br /> <span className="comp-text"> - Git - Visual Studio - Postman - Androïd Studio - SCRUM - Office - Compass - 3T - LightRoom - </span></div>
+                        <br /> <span className="comp-text"> - Git - Visual Studio - Postman - Androïd Studio - SCRUM - Office - Compass - 3T - LightRoom - GraphiQl - </span></div>
                         {outil &&
                             <div className="image-logo-container">
                                 <img className="image-logo" src={git} alt="git" />
@@ -69,6 +73,7 @@ function Competences() {
                                 <img className="image-logo" src={off} alt="microsoft office" />
                                 <img className="image-logo" src={compas} alt="compass db" />
                                 <img className="image-logo" src={t} alt="3t robots" />
+                                <img className="image-logo" src={gra} alt="mongo" />
                                 <img className="image-logo" src={lr} alt="lightroom" />
                             </div>}
                     </div>

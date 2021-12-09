@@ -27,6 +27,7 @@ import SEO from './img/SEO.png'
 import ici from './img/ici.jpg'
 import gat from './img/gatsb.png'
 import gra from './img/gra.png'
+import ts from './img/ts.png'
 
 import { useState } from 'react';
 
@@ -52,11 +53,12 @@ function Competences() {
                                 <img className="image-logo" src={html} alt="HTML" />
                                 <img className="image-logo" src={css} alt="CSS" />
                                 <img className="image-logo" src={js} alt="Javascript" />
+                                <img className="image-logo" src={ts} alt="TypeScript" />
                                 <img className="image-logo" src={react} alt="React" />
                                 <img className="image-logo" src={node} alt="node" />
                                 <img className="image-logo" src={mongo} alt="mongo" />
-                                <img className="image-logo" src={gat} alt="mongo" />
-                                <img className="image-logo" src={gra} alt="mongo" />
+                                <img className="image-logo" src={gat} alt="gatsby" />
+                                <img className="image-logo" src={gra} alt="GraphQl" />
                             </div>}
                     </div>
 
@@ -73,7 +75,7 @@ function Competences() {
                                 <img className="image-logo" src={off} alt="microsoft office" />
                                 <img className="image-logo" src={compas} alt="compass db" />
                                 <img className="image-logo" src={t} alt="3t robots" />
-                                <img className="image-logo" src={gra} alt="mongo" />
+                                <img className="image-logo" src={gra} alt="GraphIql" />
                                 <img className="image-logo" src={lr} alt="lightroom" />
                             </div>}
                     </div>

@@ -47,7 +47,7 @@ function Competences() {
 
                     <div className="textExt"> <div onClick={(e) => {e.preventDefault(); setDev(y => !y)}} onMouseOver={() => {setOutils(false); setDev(true); setPhoto(false); setBlog(false); setRest(false)}} className="textElemExt">
                         <div className="titreText"> &bull; Développement </div>
-                        <br /> <span className="comp-text"> - HTML - CSS - JavaScript - React - Node.Js / Express / Appolo - MongoDb - React Native - GraphQL - Gatsby.Js - </span></div>
+                        <br /> <span className="comp-text"> - HTML - CSS - JavaScript / TypeScript - React - Node.Js / Express / Appolo - MongoDb - React Native - GraphQL - Gatsby.Js - </span></div>
                         {dev &&
                             <div className="image-logo-container">
                                 <img className="image-logo" src={html} alt="HTML" />

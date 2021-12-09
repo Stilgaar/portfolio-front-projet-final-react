@@ -45,7 +45,7 @@ function Portfolio() {
                         <a href="https://naughty-wescoff-07195c.netlify.app/" target="_blank" rel="noreferrer nofollow" >
                             <img src={gats} alt="Portfolio en Gatsby" />
                         </a>
-                        <p>Site Vitrine - Autodidacte<br />Aout 2021</p>
+                        <p>Portfolio - Autodidacte<br />Decembre 2021</p>
                     </div>
 
                     <div className="portfolio-element">

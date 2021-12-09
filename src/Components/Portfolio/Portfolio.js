@@ -6,7 +6,7 @@ import todo from './img/todo.jpg'
 import to from './img/to.jpg'
 import cafe from './img/cafe.jpg'
 import up from './img/upe.jpg'
-import gats from './img/gats.jpg'
+import gats from './img/gats.JPG'
 
 function Portfolio() {
 
@@ -58,6 +58,9 @@ function Portfolio() {
                             Septembre 2021
                         </p>
                     </div>
+                </div>
+
+                <div className="porfolio-element-trio">
 
                     <div className="portfolio-element">
                         <h3> <span className="portfolio-titre"> To Do List</span><br />
@@ -68,9 +71,8 @@ function Portfolio() {
                         <p>Approfondissement React<br />
                             Septembre 2021</p>
                     </div>
-                </div>
 
-                <div className="porfolio-element-trio">
+
                     <div className="portfolio-element">
                         <h3> <span className="portfolio-titre"> To Do List</span><br />
                             Techno : JavaScript Vanillia</h3>

@@ -6,7 +6,7 @@
     margin:auto;
     margin-top: 1%;
     margin-bottom: 2%;
-    border-bottom: 0.5rem solid #38B6FF;
+    border-bottom: 0.2rem solid #38B6FF;
 }
 
 .navigation-start {
@@ -74,7 +74,7 @@
     margin: auto;
     animation: growDown 300ms ease-in-out forwards;
     transform-origin: top center; 
-    border-bottom: 0.5rem solid #38B6FF;
+    border-bottom: 0.2rem solid #38B6FF;
  }
 
 .navigation-start-cachee{   

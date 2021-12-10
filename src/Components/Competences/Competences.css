@@ -25,7 +25,7 @@
     color:#EFEFED;
     font-weight: bolder;
     font-size: 130%;
-    border-bottom: 3px solid #38B6FF;
+    border-bottom: 1px solid #38B6FF;
     margin-left: 40%;
     margin-right: 40%;
     padding-bottom: 0.5%;
@@ -47,7 +47,7 @@
     line-height: 5rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
-    border-bottom: 0.5rem solid #38B6FF
+    border-bottom: 0.2rem solid #38B6FF
 }
 
 .competence-barre-elem p {

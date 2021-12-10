@@ -50,10 +50,6 @@
     border-radius: 3px;  
 }
 
-.portfolio-element-uno img {
-    width: 40%;
-}
-
 .portfolio-barre-elem {
     height: 5rem;
     background-color: grey;
@@ -104,7 +100,7 @@
     .portfolio-element-uno img {
         width: 80%;
     }
-    .portfolio-element {
+    .portfolio-element, .porfolio-element-uno{
         width: 100%;
     }
 }

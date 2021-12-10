@@ -13,7 +13,7 @@
     flex-direction: row;
     margin:auto;
     width: fit-content;
-    justify-content: space-around;
+    justify-content: space-around; 
 }
 
 .porfolio-element-uno {

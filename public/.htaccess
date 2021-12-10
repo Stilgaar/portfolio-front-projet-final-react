@@ -1,2 +1,2 @@
-RedirectPermanent https://www.jeffvanstraelen.fr http://www.jeffvanstraelen.fr
-RedirectPermanent https://jeffvanstraelen.fr http://jeffvanstraelen.fr
+Redirect 301 https://www.jeffvanstraelen.fr http://www.jeffvanstraelen.fr
+Redirect 301 https://jeffvanstraelen.fr http://jeffvanstraelen.fr

@@ -18,7 +18,7 @@
 
 .porfolio-element-uno {
     display: flex;
-    width: 100%;
+    width: 80%;
 }
 .portfolio-element, .portfolio-element-uno {
     width: 20%;

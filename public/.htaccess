@@ -1,4 +1,2 @@
-Redirect 301 https://jeffvanstraelen.fr https://jeffvanstraelen.osc-fr1.scalingo.io/
-Redirect 301 http://www.jeffvanstraelen.fr https://jeffvanstraelen.osc-fr1.scalingo.io/
-Redirect 301 https://www.jeffvanstraelen.fr https://jeffvanstraelen.osc-fr1.scalingo.io/
-Redirect 301 https://jeffvanstraelen.fr https://jeffvanstraelen.osc-fr1.scalingo.io/
+Redirect 301 https://www.jeffvanstraelen.fr http://www.jeffvanstraelen.fr
+Redirect 301 https://jeffvanstraelen.fr http://jeffvanstraelen.fr

@@ -28,7 +28,7 @@ import ici from './img/ici.jpg'
 import gat from './img/gatsb.png'
 import gra from './img/gra.png'
 import ts from './img/ts.png'
-import sass from '/img/sass.png'
+import sass from './img/sass.png'
 
 import { useState } from 'react';
 

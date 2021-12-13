@@ -86,7 +86,7 @@ function Portfolio() {
                     <div className="portfolio-element">
                         <h3> <span className="portfolio-titre"> The R'Guitar Shop</span><br />
                             Techno : HTML CSS </h3>
-                        <a href="https://stilgaar.github.io/air-guitarTp-HTML-CSS/" target="_blank" rel="noreferrer nofollow" >
+                        <a href="https://stilgaar.github.io/air-guitar-site-vitrine-HTML-CSS/" target="_blank" rel="noreferrer nofollow" >
                             <img src={guit} alt="Guitare HTML" />
                         </a>
                         <p>Premier projet HTML/CSS <br /> Septembre 2021</p>

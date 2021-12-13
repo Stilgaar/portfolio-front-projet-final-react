@@ -21,7 +21,7 @@
     width: 80%;
 }
 .portfolio-element, .portfolio-element-uno {
-    width: 20%;
+    width: 30%;
     display: flex; 
     flex-direction: column;
     align-content: center;
@@ -97,10 +97,11 @@
     .porfolio-element-trio {
         flex-direction: column;
     }
-    .portfolio-element-uno img {
+    .portfolio-element-uno img, .porfolio-element-trio img {
         width: 80%;
     }
     .portfolio-element, .porfolio-element-uno{
         width: 100%;
+        margin:auto;
     }
 }

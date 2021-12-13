@@ -28,6 +28,7 @@ import ici from './img/ici.jpg'
 import gat from './img/gatsb.png'
 import gra from './img/gra.png'
 import ts from './img/ts.png'
+import sass from '/img/sass.png'
 
 import { useState } from 'react';
 
@@ -52,6 +53,7 @@ function Competences() {
                             <div className="image-logo-container">
                                 <img className="image-logo" src={html} alt="HTML" />
                                 <img className="image-logo" src={css} alt="CSS" />
+                                <img className="image-logo" src={sass} alt="Sass" />
                                 <img className="image-logo" src={js} alt="Javascript" />
                                 <img className="image-logo" src={ts} alt="TypeScript" />
                                 <img className="image-logo" src={react} alt="React" />
@@ -59,6 +61,7 @@ function Competences() {
                                 <img className="image-logo" src={mongo} alt="mongo" />
                                 <img className="image-logo" src={gat} alt="gatsby" />
                                 <img className="image-logo" src={gra} alt="GraphQl" />
+                                
                             </div>}
                     </div>
 

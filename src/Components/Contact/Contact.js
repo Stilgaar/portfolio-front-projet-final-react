@@ -1,19 +1,13 @@
-import { useState } from 'react'
 import './Contact.css'
 import cv from './CV-JeffvanStraelen.pdf'
 import imprim from './cv-jean-francoisvanstraelen-imprimer.pdf'
-const axios = require('axios')
-
+import useSubmit from '../../Hooks/useSubmit'
 
 function Contact() {
 
-    const [sumbit, setSumbit] = useState({noms:"", email:"" , title: "", message:""})
-    const [ok,setOk] = useState(false)
-    let url =  "https://jeffvanstraelenback.osc-fr1.scalingo.io/message" || "http://localhost:5000/message"
-    const handleSubmit = (e) => {
-        e.preventDefault();  
-        e.target.reset();
-        axios.post(url, sumbit).then((res) => {if (res.data === 'done') {setOk(true)}} ).catch((err) => console.log(err)) }
+    let url = "https://jeffvanstraelenback.osc-fr1.scalingo.io/" || "http://localhost:5000/"
+    const message = () => { }
+    const [values, handleChange, handleSumbit, ok, setOk] = useSubmit(message, `${url}message`);
 
     return (
         <div className="competence-elem" id="contact"> <div className="competence-barre-elem"> <p> Contact </p></div>
@@ -22,29 +16,53 @@ function Contact() {
                 <div className="contact-container">
 
                     <div className="contact-message">Laissez moi un message, je vous répondrai le plus rapidement possible.</div>
-                    <form onSubmit={(e) => handleSubmit(e)}>
+                    <form onSubmit={handleSumbit}>
                         <div className="contact-input-nom-email">
                             <div className="contact-input-nom">
                                 <label>Nom et Prénom </label>
-                                <input type="text" placeholder="Guillaume Graciet" required onChange={(e) => setSumbit({...sumbit, noms:e.target.value})} />
+                                <input
+                                    value={values.noms || ""}
+                                    type="text"
+                                    placeholder="Guillaume Graciet"
+                                    required
+                                    name="noms"
+                                    onChange={handleChange}
+                                />
                             </div>
                             <div className="contact-input-mail">
                                 <label>Email </label>
-                                <input type="email" placeholder="guillaume.g@lebocal.academy" required onChange={(e) => setSumbit({...sumbit, email:e.target.value})} />
+                                <input
+                                    value={values.email || ""}
+                                    type="email"
+                                    placeholder="guillaume.g@lebocal.academy"
+                                    required
+                                    name="email"
+                                    onChange={handleChange} />
                             </div>
                         </div>
                         <div className="contact-input-titre-message">
                             <label>Titre ? (optionel) </label>
-                            <input type="text" placeholder="Titre de votre message" onChange={(e) => setSumbit({...sumbit, title:e.target.value})} />
+                            <input
+                                value={values.title || ""}
+                                type="text"
+                                placeholder="Titre de votre message"
+                                name="title"
+                                onChange={handleChange} />
 
                             <label>Message </label>
-                            <textarea placeholder="Message" required onChange={(e) => setSumbit({...sumbit, message:e.target.value})}></textarea>
+                            <textarea
+                                value={values.message || ""}
+                                type="text"
+                                placeholder="Message"
+                                name="message"
+                                required
+                                onChange={handleChange}></textarea>
                         </div>
-                        {ok ? <div className="contact-message-send">Message envoyé. <br/> <button className="btn-envoyer" onClick={() => setOk(false)}> Autre message ? </button> </div> 
-                        
-                        :
-                        <button className="btn-envoyer" type="submit">Envoyer</button>
-                        }
+                        {ok ? <div className="contact-message-send">Message envoyé. <br /> <button className="btn-envoyer" onClick={() => setOk(false)} > Autre message </button> </div>
+
+                            :
+                            <button className="btn-envoyer" type="submit">Envoyer</button>}
+
                     </form>
                 </div>
                 <div className="contact-container-contact">

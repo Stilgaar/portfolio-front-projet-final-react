@@ -5,9 +5,8 @@ import useSubmit from '../../Hooks/useSubmit'
 
 function Contact() {
 
-    let url = "https://jeffvanstraelenback.osc-fr1.scalingo.io/" || "http://localhost:5000/"
-    const message = () => { }
-    const [values, handleChange, handleSumbit, ok, setOk] = useSubmit(message, `${url}message`);
+    let url = "http://localhost:5000/"
+    const [values, handleChange, handleSumbit, ok, setOk] = useSubmit(`${url}message`);
 
     return (
         <div className="competence-elem" id="contact"> <div className="competence-barre-elem"> <p> Contact </p></div>

@@ -29,6 +29,10 @@ import gat from './img/gatsb.png'
 import gra from './img/gra.png'
 import ts from './img/ts.png'
 import sass from './img/sass.png'
+import next from './img/next.png'
+import prisma from './img/prisma.png'
+import appo from './img/appo.png'
+import express from './img/express.png'
 
 import { useState } from 'react';
 
@@ -39,16 +43,16 @@ function Competences() {
     const [photo, setPhoto] = useState(false);
     const [rest, setRest] = useState(false);
     const [blog, setBlog] = useState(false)
-    
+
 
     return (
         <div className="competence-elem" id="comp"> <div className="competence-barre-elem"> <p> Compétences </p></div>
             <div className="globalElem">
                 <div className="textBox">
 
-                    <div className="textExt"> <div onClick={(e) => {e.preventDefault(); setDev(y => !y)}} onMouseOver={() => {setOutils(false); setDev(true); setPhoto(false); setBlog(false); setRest(false)}} className="textElemExt">
+                    <div className="textExt"> <div onClick={(e) => { e.preventDefault(); setDev(y => !y) }} onMouseOver={() => { setOutils(false); setDev(true); setPhoto(false); setBlog(false); setRest(false) }} className="textElemExt">
                         <div className="titreText"> &bull; Développement </div>
-                        <br /> <span className="comp-text"> - HTML - CSS - Sass - JavaScript / TypeScript - React - Node.Js / Express / Appolo - MongoDb - React Native - GraphQL - Gatsby.Js - </span></div>
+                        <br /> <span className="comp-text"> - HTML - CSS - Sass - JavaScript / TypeScript - React - Gatsby.Js - Next.js - Node.Js / Express / Appolo / Prisma - MongoDb - React Native - GraphQL -  </span></div>
                         {dev &&
                             <div className="image-logo-container">
                                 <img className="image-logo" src={html} alt="HTML" />
@@ -57,15 +61,19 @@ function Competences() {
                                 <img className="image-logo" src={js} alt="Javascript" />
                                 <img className="image-logo" src={ts} alt="TypeScript" />
                                 <img className="image-logo" src={react} alt="React" />
-                                <img className="image-logo" src={node} alt="node" />
-                                <img className="image-logo" src={mongo} alt="mongo" />
                                 <img className="image-logo" src={gat} alt="gatsby" />
+                                <img className="image-logo" src={next} alt="next" />
+                                <img className="image-logo" src={node} alt="node" />
+                                <img className="image-logo" src={express} alt="node" />
+                                <img className="image-logo" src={appo} alt="nappolo" />
+                                <img className="image-logo" src={prisma} alt="prisma" />
+                                <img className="image-logo" src={mongo} alt="mongo" />
                                 <img className="image-logo" src={gra} alt="GraphQl" />
-                                
+
                             </div>}
                     </div>
 
-                    <div className="textExt"> <div onClick={(e) => { e.preventDefault(); setOutils(y => !y)} } onMouseOver={() => {setOutils(true); setDev(false); setPhoto(false); setBlog(false); setRest(false) } } className="textElemExt">
+                    <div className="textExt"> <div onClick={(e) => { e.preventDefault(); setOutils(y => !y) }} onMouseOver={() => { setOutils(true); setDev(false); setPhoto(false); setBlog(false); setRest(false) }} className="textElemExt">
                         <div className="titreText"> &bull; Outils </div>
                         <br /> <span className="comp-text"> - Git - Visual Studio - Postman - Androïd Studio - SCRUM - Office - Compass - 3T - LightRoom - GraphiQl - </span></div>
                         {outil &&
@@ -83,7 +91,7 @@ function Competences() {
                             </div>}
                     </div>
 
-                    <div className="textExt"> <div onMouseOver={() => {setOutils(false); setDev(false); setPhoto(y => !y); setBlog(false); setRest(false) }} onClick={() => setPhoto(y => !y)}  className="textElemExt">
+                    <div className="textExt"> <div onMouseOver={() => { setOutils(false); setDev(false); setPhoto(y => !y); setBlog(false); setRest(false) }} onClick={() => setPhoto(y => !y)} className="textElemExt">
                         <div className="titreText"> &bull; Photographie </div>
                         <br /> <span className="comp-text">- Interieurs - Packshots - &#x000C9;vénementiel - Mini Studio - Packshot exterieures - </span> </div>
                         {photo &&

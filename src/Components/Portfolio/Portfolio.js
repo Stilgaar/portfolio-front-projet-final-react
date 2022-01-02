@@ -19,12 +19,12 @@ function Portfolio() {
                 <div className="porfolio-element-uno">
                     <div className="portfolio-element-uno">
                         <h3>  <span className="portfolio-titre"> UpdownStreet </span><br />
-                            Techno: Appli web MERN</h3>
-                        <a href="https://uppertown.osc-fr1.scalingo.io/" target="_blank" rel="noreferrer nofollow" >
-                            <img src={up} alt="" />
-                        </a>
+                            Techno: Appli web MERN</h3>                        
+                            <img src={up} alt="Updownstreet premier site en autonomie stack mern" />                        
                         <p>Proof of concept -  FullStack MERN <br />
-                            Novembre 2021</p>
+                            Novembre 2021 - Janvier 20222<br/>
+                            <a href="https://github.com/Stilgaar/uppertown-front-reactjs" target="_blank" rel="noreferrer nofollow">Front</a> <a href="https://github.com/Stilgaar/uppertown-back-nodejs" target="_blank" rel="noreferrer nofollow">Back</a>
+                            </p>
                     </div>
                 </div>
 
@@ -32,30 +32,30 @@ function Portfolio() {
                     <div className="portfolio-element">
                         <h3>  <span className="portfolio-titre"> Delivrium</span> <br />
                             Techno : Appli Web MERN</h3>
-                        <a href="https://delivriumfront.osc-fr1.scalingo.io/" target="_blank" rel="noreferrer nofollow" >
                             <img src={livre} alt="" />
-                        </a>
                         <p>Premier projet MERN complet <br />
-                            Octobre 2021</p>
+                            Octobre 2021 <br/>
+                            <a href="https://github.com/Stilgaar/delivirum-front-reactjs" target="_blank" rel="noreferrer nofollow">Front</a> <a href="https://github.com/Stilgaar/delivrium-back-nodejs-expressjs" target="_blank" rel="noreferrer nofollow">Back</a></p>
                     </div>
 
                     <div className="portfolio-element">
                         <h3> <span className="portfolio-titre">PortFolio</span><br />
-                            Techno : MERNGG (Gatsby-GraphQL) </h3>
+                            Techno : MEARNGG (Gatsby-GraphQL-Apollo) </h3>
                         <a href="https://naughty-wescoff-07195c.netlify.app/" target="_blank" rel="noreferrer nofollow" >
                             <img src={gats} alt="Portfolio en Gatsby" />
                         </a>
-                        <p>Portfolio - Autodidacte<br />Decembre 2021</p>
+                        <p>Portfolio - Autodidacte<br />Decembre 2021 <br/>
+                        <a href="https://github.com/Stilgaar/portfolio-front-gatsbyjs-graphql" target="_blank" rel="noreferrer nofollow" >Front</a> <a href="https://github.com/Stilgaar/back-nodejs-apollo-express-mongoose" target="_blank" rel="noreferrer nofollow" >Back</a></p>
                     </div>
 
                     <div className="portfolio-element">
                         <h3>  <span className="portfolio-titre"> Café de la place</span> <br />
                             Techno : React Js</h3>
-                        <a href="https://cafedelaplace.osc-fr1.scalingo.io/" target="_blank" rel="noreferrer nofollow" >
-                            <img src={cafe} alt="cafe de la place react" />
-                        </a>
+                         <img src={cafe} alt="cafe de la place react" />
+            
                         <p>Js vanillia & React.js <br />
-                            Septembre 2021
+                            Septembre 2021 <br/>
+                            <a href="https://github.com/Stilgaar/cafe-de-la-place-react.js" target="_blank" rel="noreferrer nofollow" >Front</a>
                         </p>
                     </div>
                 </div>
@@ -64,12 +64,12 @@ function Portfolio() {
 
                     <div className="portfolio-element">
                         <h3> <span className="portfolio-titre"> To Do List</span><br />
-                            Techno : ReactJs</h3>
-                        <a href="https://todolist-react.osc-fr1.scalingo.io" target="_blank" rel="noreferrer nofollow" >
-                            <img src={to} alt="TO DO LIST Javascript vanillia" />
-                        </a>
+                            Techno : ReactJs</h3>                        
+                            <img src={to} alt="TO DO LIST React Js" />
                         <p>Approfondissement React<br />
-                            Septembre 2021</p>
+                            Septembre 2021 <br/>
+                            <a href="https://github.com/Stilgaar/to-do-list-reactjs" target="_blank" rel="noreferrer nofollow" >Front</a>
+                            </p>
                     </div>
 
 
@@ -80,7 +80,8 @@ function Portfolio() {
                             <img src={todo} alt="TO DO LIST Javascript vanillia" />
                         </a>
                         <p>Premier projet JavaScript<br />
-                            Septembre 2021</p>
+                            Septembre 2021 <br/>
+                            <a href="https://github.com/Stilgaar/to-do-list-javascript-vanillia" target="_blank" rel="noreferrer nofollow" >Front</a></p>
                     </div>
 
                     <div className="portfolio-element">
@@ -89,8 +90,9 @@ function Portfolio() {
                         <a href="https://stilgaar.github.io/air-guitar-site-vitrine-HTML-CSS/" target="_blank" rel="noreferrer nofollow" >
                             <img src={guit} alt="Guitare HTML" />
                         </a>
-                        <p>Premier projet HTML/CSS <br /> Septembre 2021</p>
-                    </div>
+                        <p>Premier projet HTML/CSS <br /> Septembre 2021 <br/>  
+                        <a href="https://github.com/Stilgaar/air-guitar-site-vitrine-HTML-CSS" target="_blank" rel="noreferrer nofollow" >Front</a></p>
+                    </div><section></section>
                 </div>
             </div>
 

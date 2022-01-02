@@ -40,7 +40,7 @@ function Portfolio() {
 
                     <div className="portfolio-element">
                         <h3> <span className="portfolio-titre">PortFolio</span><br />
-                            Techno : MEARNGG (Gatsby-GraphQL-Apollo) </h3>
+                            Techno : Gatsby / GraphQL </h3>
                         <a href="https://naughty-wescoff-07195c.netlify.app/" target="_blank" rel="noreferrer nofollow" >
                             <img src={gats} alt="Portfolio en Gatsby" />
                         </a>

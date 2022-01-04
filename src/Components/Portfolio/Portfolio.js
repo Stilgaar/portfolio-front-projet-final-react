@@ -32,20 +32,23 @@ function Portfolio() {
                     <div className="portfolio-element">
                         <h3>  <span className="portfolio-titre"> Delivrium</span> <br />
                             Techno : Appli Web MERN</h3>
-                        <img src={livre} alt="" />
+                        <img src={livre} alt="Appli Web" />
                         <p>Premier projet MERN complet <br />
                             Octobre 2021 <br />
-                            <a href="https://github.com/Stilgaar/delivirum-front-reactjs" target="_blank" rel="noreferrer nofollow">Front</a> <a href="https://github.com/Stilgaar/delivrium-back-nodejs-expressjs" target="_blank" rel="noreferrer nofollow">Back</a></p>
+                            <a href="https://github.com/Stilgaar/delivirum-front-reactjs" target="_blank" rel="noreferrer nofollow">Front </a>
+                            <a href="https://github.com/Stilgaar/delivrium-back-nodejs-expressjs" target="_blank" rel="noreferrer nofollow"> Back</a>
+                        </p>
                     </div>
-
                     <div className="portfolio-element">
                         <h3> <span className="portfolio-titre">PortFolio</span><br />
                             Techno : Gatsby / GraphQL </h3>
                         <img src={gats} alt="Portfolio en Gatsby" />
-                        <p>Portfolio - Autodidacte<br />Decembre 2021 <br />
-                            <a href="https://github.com/Stilgaar/portfolio-front-gatsbyjs-graphql" target="_blank" rel="noreferrer nofollow" >Front</a> <a href="https://github.com/Stilgaar/back-nodejs-apollo-express-mongoose" target="_blank" rel="noreferrer nofollow" >Back</a></p>
+                        <p>Portfolio - Autodidacte<br />
+                            Decembre 2021 <br />
+                            <a href="https://github.com/Stilgaar/portfolio-front-gatsbyjs-graphql" target="_blank" rel="noreferrer nofollow" >Front </a>
+                            <a href="https://github.com/Stilgaar/back-nodejs-apollo-express-mongoose" target="_blank" rel="noreferrer nofollow" > Back</a>
+                        </p>
                     </div>
-
                     <div className="portfolio-element">
                         <h3>  <span className="portfolio-titre"> Café de la place</span> <br />
                             Techno : React Js</h3>
@@ -58,7 +61,6 @@ function Portfolio() {
                 </div>
 
                 <div className="porfolio-element-trio">
-
                     <div className="portfolio-element">
                         <h3> <span className="portfolio-titre"> To Do List</span><br />
                             Techno : ReactJs</h3>
@@ -68,8 +70,6 @@ function Portfolio() {
                             <a href="https://github.com/Stilgaar/to-do-list-reactjs" target="_blank" rel="noreferrer nofollow" >Front</a>
                         </p>
                     </div>
-
-
                     <div className="portfolio-element">
                         <h3> <span className="portfolio-titre"> To Do List</span><br />
                             Techno : JavaScript Vanillia</h3>
@@ -78,14 +78,13 @@ function Portfolio() {
                             Septembre 2021 <br />
                             <a href="https://github.com/Stilgaar/to-do-list-javascript-vanillia" target="_blank" rel="noreferrer nofollow" >Front</a></p>
                     </div>
-
                     <div className="portfolio-element">
                         <h3> <span className="portfolio-titre"> The R'Guitar Shop</span><br />
                             Techno : HTML CSS </h3>
                         <img src={guit} alt="Guitare HTML" />
                         <p>Premier projet HTML/CSS <br /> Septembre 2021 <br />
                             <a href="https://github.com/Stilgaar/air-guitar-site-vitrine-HTML-CSS" target="_blank" rel="noreferrer nofollow" >Front</a></p>
-                    </div><section></section>
+                    </div>
                 </div>
             </div>
 

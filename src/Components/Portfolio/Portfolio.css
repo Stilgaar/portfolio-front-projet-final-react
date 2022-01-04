@@ -1,107 +1,110 @@
 .portfolio-container {
-    width: 80%;
-    color: #EFEFED; 
-    margin: auto; 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  width: 80%;
+  color: #efefed;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .porfolio-element-trio {
-    display: flex;
-    flex-direction: row;
-    margin:auto;
-    width: fit-content;
-    justify-content: space-around; 
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: fit-content;
+  justify-content: space-between;
 }
 
 .porfolio-element-uno {
-    display: flex;
-    width: 80%;
+  display: flex;
+  width: 80%;
 }
-.portfolio-element, .portfolio-element-uno {
-    width: 30%;
-    display: flex; 
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-around;
-    margin: 0.3%; 
-    padding: 0.1%;
-    text-align: center;
-    background-color:rgb(184, 184, 184,0.2);
-    border-radius: 3px;
+.portfolio-element,
+.portfolio-element-uno {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  margin: 0.3%;
+  padding: 0.1%;
+  text-align: center;
+  background-color: rgb(184, 184, 184, 0.2);
+  border-radius: 3px;
 }
 
 .portfolio-element-uno {
-    width: 100%;
+  width: 100%;
 }
 
-.portfolio-element a{
-    width: 100%;
-    align-self: center;
-} 
+.portfolio-element a {
+  width: 100%;
+  align-self: center;
+}
 
-.portfolio-element img, .portfolio-element-uno img{
-    height: max-content;
-    display: flex;
-    width: 80%;
-    margin: auto;
-    border-radius: 3px;  
+.portfolio-element img,
+.portfolio-element-uno img {
+  height: max-content;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  border-radius: 3px;
 }
 
 .portfolio-barre-elem {
-    height: 5rem;
-    background-color: grey;
-    line-height: 5rem;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-    border-bottom: 0.1rem solid #38B6FF
+  height: 5rem;
+  background-color: grey;
+  line-height: 5rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  border-bottom: 0.1rem solid #38b6ff;
 }
 
 .portfolio-barre-elem p {
-    margin-left: 2rem;
-    font-size: 200%;
-    font-weight: bolder;
-
+  margin-left: 2rem;
+  font-size: 200%;
+  font-weight: bolder;
 }
 
 .snacks {
-    overflow: hidden; 
-    background: #212121;
-    border: 1px solid gray;
-    border-radius: 4px;
-    height: min-content;
-    width: 100%;
-    z-index: 100;
+  overflow: hidden;
+  background: #212121;
+  border: 1px solid gray;
+  border-radius: 4px;
+  height: min-content;
+  width: 100%;
+  z-index: 100;
 }
 
 .snacks:hover {
-    height: 600px;
-    width: 600px;
+  height: 600px;
+  width: 600px;
 }
 
 .portfolios-subtitles {
-    color: #EFEFED;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 200%;
+  color: #efefed;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 200%;
 }
 
-@media (max-width : 1000px) {
-    .portfolio-container {
-        flex-direction: column;
-    } 
-    .porfolio-element-trio {
-        flex-direction: column;
-    }
-    .portfolio-element-uno img, .porfolio-element-trio img {
-        width: 80%;
-    }
-    .portfolio-element, .porfolio-element-uno{
-        width: 100%;
-        margin:auto;
-    }
+@media (max-width: 1000px) {
+  .portfolio-container {
+    flex-direction: column;
+  }
+  .porfolio-element-trio {
+    flex-direction: column;
+  }
+  .portfolio-element-uno img,
+  .porfolio-element-trio img {
+    width: 80%;
+  }
+  .portfolio-element,
+  .porfolio-element-uno {
+    width: 100%;
+    margin: auto;
+  }
 }

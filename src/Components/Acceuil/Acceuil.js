@@ -6,7 +6,7 @@ import lin from './img/in.png'
 
 function Acceuil() {
     return (
-        <div className="acceuil-main-container" >         
+        <div className="acceuil-main-container" >
             <div className="acceuil-container">
                 <div className="acceuil-single-box-text">
                     <div className="acceuil-dev">Developpeur FullStack JavaScript</div>
@@ -18,7 +18,8 @@ function Acceuil() {
                         Après trois ans à mon compte en tant que Photographe ainsi qu'une dizaine d'années
                         en management dans la restauration, j'ai voulu me lancer dans une nouvelle Aventure.
                         Je me suis naturellement orienté vers un secteur me tendant les bras : le développement web.
-                        Pour cette raison, j'ai suivi une formation bootcamp en distanciel au Bocal Academy de Nice</div>
+                        Pour cette raison, j'ai suivi une formation bootcamp en distanciel au Bocal Academy de Nice <br />
+                        Depuis la fin de la formation je n'ai cessé d'apprendre de nouvelles technos en suivant de nombreux tutoriels en ligne</div>
                 </div>
                 <div className="acceuil-single-box-image">
                     <img className="acceuil-photo" src={profile} alt="alt" />
@@ -38,7 +39,7 @@ export default Acceuil;
 
 // &#x00028; (
 // &#x00029; )
-// &#x0003E; > 
+// &#x0003E; >
 // &#x0007B; {
 // &#x0007D; }
 

@@ -1,27 +1,19 @@
-import axios from 'axios';
-import { useState } from 'react';
+import { useState } from 'react'
+const axios = require('axios')
 
-const useSubmit = (url) => {
+
+export default function useSubmit(e, sumbit) {
+
+    let url = "https://jeffvanstraelenback.osc-fr1.scalingo.io/message" || "http://localhost:5000/message"
 
     const [ok, setOk] = useState(false)
-    const [data, setData] = useState({})
+    e.preventDefault();
 
-    const handleSubmit = e => {
-        e.preventDefault();
-        axios.post(url, data)
-            .then((res) => {
-                if (res.data === 'done') { setOk(true) };
-            })
-            .then(() => setData({}))
-            .catch((err) => console.log(err))
-    }
+    e.target.reset();
 
-    const handleChange = e => {
-        e.persist();
-        setData(data => ({ ...data, [e.target.name]: e.target.value }))
-    }
-
-    return [data, handleChange, handleSubmit, ok, setOk]
+    axios.post(url, sumbit)
+        .then((res) => {
+            if (res.data === 'done') { setOk(true) }
+        })
+        .catch((err) => console.log(err))
 }
-
-export default useSubmit;

@@ -5,7 +5,7 @@ import useSubmit from '../../Hooks/useSubmit'
 
 function Contact() {
 
-    let url = "http://localhost:5000/"
+    let url = "https://jeffvanstraelenback.osc-fr1.scalingo.io/message"
     const [values, handleChange, handleSumbit, ok, setOk] = useSubmit(`${url}message`);
 
     return (

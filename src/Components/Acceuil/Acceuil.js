@@ -36,31 +36,3 @@ function Acceuil() {
 }
 
 export default Acceuil;
-
-// &#x00028; (
-// &#x00029; )
-// &#x0003E; >
-// &#x0007B; {
-// &#x0007D; }
-
-/*  <div className="acceuil-textdefilant"> const handleInput = &#x00028; &#x00029; =&#x0003E; &#x0007B;setter&#x00028;e.target.value &#x00029;&#x0007D;
-<br />
-const adminData =  &#x0007B; <br/> <br/>
-addRib &#x00028; req, res, next &#x00029;   &#x0007B; <br/>
-let  &#x0007B;  titulaire, domiciliation, iban, codeBanque, codeGuichet, numeroCompte, clefRib, bicSwift  &#x0007D;  = req.body; <br/>
-if  &#x00028; !titulaire || !domiciliation || !iban || !codeBanque || !codeGuichet || !numeroCompte || !clefRib || !bicSwift &#x00029;   &#x0007B;  return res.send &#x00028; "empty" &#x00029;   &#x0007D; <br/>
-AdminModel.findOneAndUpdate &#x00028;  &#x0007B;  lerib: "01"  &#x0007D; , <br/>
-&#x0007B;  $set:  &#x0007B; <br/>
-titulaire: titulaire, domiciliation: domiciliation, iban: iban, codeBanque: codeBanque, codeGuichet: codeGuichet, numeroCompte: numeroCompte, clefRib: clefRib, bicSwift: bicSwift
-&#x0007D; 
-&#x0007D; , <br/>  &#x0007B;  new: true  &#x0007D; , <br/>  &#x00028; err, updatedRib &#x00029;  =&#x0003E;  &#x0007B;<br/> 
-if  &#x00028; err &#x00029;   &#x0007B;  res.send &#x00028; err &#x00029;   &#x0007D; <br/> 
-if  &#x00028; !updatedRib &#x00029;   &#x0007B; <br/> 
-AdminModel.create &#x00028;  &#x0007B; <br/> 
-titulaire, domiciliation, iban, codeBanque, codeGuichet, numeroCompte, clefRib, bicSwift<br/> 
-&#x0007D;  &#x00029; .then &#x00028;  &#x00028; newRib &#x00029;  =&#x0003E; res.send &#x00028; newRib &#x00029;  &#x00029; <br/> 
-.catch &#x00028;  &#x00028; err &#x00029;  =&#x0003E; res.send &#x00028; err &#x00029;  &#x00029; <br/> 
-&#x0007D;  else  &#x0007B; res.send &#x00028; updatedRib &#x00029;  &#x0007D; <br/> 
-&#x0007D;  &#x00029; <br/> 
-&#x0007D; ,
-</div> */ 

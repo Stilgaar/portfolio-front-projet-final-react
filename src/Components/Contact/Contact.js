@@ -6,7 +6,7 @@ import useSubmit from '../../Hooks/useSubmit'
 function Contact() {
 
     let url = "https://jeffvanstraelenback.osc-fr1.scalingo.io/message"
-    const [values, handleChange, handleSumbit, ok, setOk] = useSubmit(`${url}message`);
+    const [values, handleChange, handleSumbit, ok, setOk] = useSubmit(`$https://jeffvanstraelenback.osc-fr1.scalingo.io/message`);
 
     return (
         <div className="competence-elem" id="contact"> <div className="competence-barre-elem"> <p> Contact </p></div>
